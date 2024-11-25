@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Principal</title>
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="icon" href="../img/logopastel2.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabeza">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/logopastel2.png" alt="logo de la pasteleria">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../html/tienda.html">Tienda</a></li>
+                    <li><a href="../html/contacto.html">Contactenos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <h1>Deleitate con nuestros postres</h1>
+            <input type="text" id="search" placeholder="Buscar postres...">
+
+            <div class="contenido" id = "products">
+                
+                <div class="item" data-name="cheesecake fresa">
+                    <h2>Cheesecake de fresa</h2>
+                    <p class="descripcion">Base de galleta crujiente con una capa de suave crema de queso, cubierta con mermelada y fresas frescas</p>
+                    <img src="../img/postres/cheesecakedefresa.png" alt="">
+                    <p><strong>Precio:</strong> 45,200</p>
+                </div>
+                
+                <div class="item" data-name="tiramisu clasico">
+                    <h2>Tiramisu clásico</h2>
+                    <p class="descripcion">Capas de bizcochos empapados en café espresso y licor, intercaladas con crema de mascarpone espolvoreada con cacao.</p>
+                    <img src="../img/postres/tiramisuclasico.png" alt="">
+                    <p><strong>Precio:</strong> 10,000</p>
+                </div>
+                
+                <div class="item" data-name="brownies chocolate">
+                    <h2>Brownies de chocolate</h2>
+                    <p class="descripcion">Suaves y húmedos por dentro, con un intenso sabor a chocolate y una ligera capa crujiente por fuera.</p>
+                    <img src="../img/postres/brownie.png" alt="">
+                    <p><strong>Precio:</strong> 3,200</p>
+                </div>
+                
+                <div class="item" data-name="macarons franceses">
+                    <h2>Macarons Franceses</h2>
+                    <p class="descripcion">Coloridos y delicados, rellenos de cremas o mermeladas con sabores como vainilla, pistacho, frambuesa y chocolate.</p>
+                    <img src="../img/postres/macarons.png" alt="">
+                    <p><strong>Precio:</strong> 6,000</p>
+                </div>
+                
+                <div class="item" data-name="tres leches">
+                    <h2>Tres leches</h2>
+                    <p class="descripcion">Pastel esponjoso bañado en una mezcla de tres leches, cubierto con crema batida y canela.</p>
+                    <img src="../img/postres/tresleches.png" alt="">
+                    <p><strong>Precio:</strong> 20,000</p>
+                </div>
+                
+                <div class="item" data-name="creme brulee">
+                    <h2>Creme Brulee</h2>
+                    <p class="descripcion">Postre francés de crema de vainilla horneada con una capa crujiente de azúcar caramelizado en la parte superior.</p>
+                    <img src="../img/postres/Creme-Brulee.png" alt="">
+                    <p><strong>Precio:</strong> 27,000</p>
+                </div>                
+                
+            </div>
+            <button id="theme-toggle">Cambiar tema</button>
+
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Pasteleria</p>
+        </footer>
+        
+        <script src="../js/filtrar.js"></script>
+        <script src="../js/tema.js"></script>
+    </body>
+</html>
